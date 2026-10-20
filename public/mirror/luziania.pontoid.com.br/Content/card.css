@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+	border-bottom: 1px solid lightgray;
+}
+
+.card-header {    
+    margin-bottom: 10px;
+    background-color: #efefef;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+
+.seg {
+	background-color:cornsilk;
+}
+.ter {
+	background-color:lightblue;
+}
+.qua {
+	background-color:palegreen;
+}
+.qui {
+	background-color:bisque;
+}
+.sex {
+	background-color:lavender;
+}
+.sab {
+    background-color: #ecabab;
+}
+.dom {
+    background-color: #bce6ea;
+}
+
+
+.card-box {
+    
+    word-wrap: break-word;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    border-color: lightgray;	
+	margin-bottom:10px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.25rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+	border-bottom: 1px solid lightgrey;
+	text-align:center;
+}
+
+.card-footer {
+	text-align:center;    
+    background-color: azure;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+.card-column {
+    max-height: 80%;
+    width: 14%;
+}

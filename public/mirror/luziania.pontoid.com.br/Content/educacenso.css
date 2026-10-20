@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'educacenso';
+  src:  url("/mirror/luziania.pontoid.com.br/Content/fonts/educacenso.eot?5igcyp");
+  src:  url("/mirror/luziania.pontoid.com.br/Content/fonts/educacenso.eot?5igcyp#iefix") format('embedded-opentype'),
+    url("/mirror/luziania.pontoid.com.br/Content/fonts/educacenso.qs1jfly.ttf") format('truetype'),
+    url("/mirror/luziania.pontoid.com.br/Content/fonts/educacenso.woff?5igcyp") format('woff'),
+    url("/mirror/luziania.pontoid.com.br/Content/fonts/educacenso.svg?5igcyp#educacenso") format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-educacenso"], [class*=" icon-educacenso"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'educacenso' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-educacenso::before {
+  content: "\e900";
+  color: #058dc7;
+}

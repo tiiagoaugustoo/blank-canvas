@@ -1,6 +1,22 @@
-# Blank Canvas
+# Conecta Luziânia
 
-crie uma tela em branco
+Reprodução visual da tela **Editar Aluno**, importada do arquivo
+`clonai_conecta-luziania-pontoid-technology.zip`.
+
+A rota inicial apresenta `public/conecta.html`, derivado do `snapshot.html`
+capturado no ZIP, com os estilos, fontes e imagens locais em `public/mirror/`.
+O documento fica em um iframe isolado para preservar o CSS original sem
+interferência dos estilos do aplicativo.
+
+O snapshot preserva a aba **Dados Socioeconômicos** selecionada na captura.
+Os dados pessoais e escolares foram substituídos por campos vazios e dados
+fictícios de demonstração. Registros em abas ocultas e imagens pessoais sem
+uso foram removidos antes da publicação no repositório público.
+É uma reprodução visual: autenticação, navegação do sistema, salvar e excluir
+dependem do backend original e não estão conectados. Scripts e envios de
+formulário estão bloqueados. O token de sessão capturado foi removido.
+Os endpoints de imagens que retornaram HTML na exportação foram substituídos
+pelo logotipo e pela imagem padrão já incluídos no ZIP.
 
 This project was built with [Lovable](https://lovable.dev).
 
